@@ -1,1 +1,33 @@
-[]
+[
+    {
+        "dataset_name": "Iowa Lake Water Quality",
+        "description": "Measurements of nutrient concentrations in Iowa lakes from 2010 to 2020.",
+        "version": "1.1.0",
+        "created_on": "2023-02-10",
+        "updated_on": "2025-06-15",
+        "contributors": [
+            {
+                "name": "Shalith Chamantha",
+                "email": "shali@example.com",
+                "role": "curator"
+            }
+        ],
+        "data_files": [
+            {
+                "file_name": "iowa_lakes_2020.csv",
+                "file_type": "csv",
+                "uploaded_on": "2025-06-15",
+                "checksum": "1f2d3a4b5c6d..."
+            }
+        ],
+        "tags": [
+            "lakes",
+            "water quality",
+            "Iowa",
+            "nutrients"
+        ],
+        "license": "CC-BY-4.0",
+        "source": "https://doi.org/10.1234/iowa.lake.quality.2020",
+        "schema_version": "1.0"
+    }
+]

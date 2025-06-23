@@ -2,7 +2,7 @@ import json
 import os
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-SUBMODULES_DIR = os.path.join(ROOT_DIR, "submodules")
+SUBMODULES_DIR = os.path.join(ROOT_DIR, "datasets")
 OUTPUT_FILE = os.path.join(ROOT_DIR, "all_metadata.json")
 
 all_metadata = []
